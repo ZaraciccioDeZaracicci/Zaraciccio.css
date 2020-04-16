@@ -1,0 +1,44 @@
+.left {
+    position: absolute;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    max-width: 300px;
+    visibility: hidden;
+    color: #fff !important;
+    background-color: transparent !important;
+    box-shadow: 0 0 0 0rem rgba(255, 255, 255, 0.25);
+    border-radius: 0.25rem;
+    transition: visibility, box-shadow, color, background-color 200ms, 200ms, 200ms, 200ms linear;
+    
+    a  {
+        color: #fff;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .open {
+        position: absolute;
+        float: left;
+        max-width: 300px;
+        visibility: visible;
+        color: #000 !important;
+        background-color: #fff !important;
+        box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+        border-radius: 0.25rem;
+
+        a {
+            color: #000 !important;
+        }
+    }
+}
+
+.left-separator {
+    height: 1px;
+    width: auto;
+    background-color: #000;
+}

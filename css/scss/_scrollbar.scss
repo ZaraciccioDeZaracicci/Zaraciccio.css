@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+    background-color: #242a30;
+    width: 4px;
+    transition: width 200ms, 200ms linear;
+
+    :hover {
+        background-color: #242a30;
+        width: 10px;
+        transition: width 200ms, 200ms linear;
+    }
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: .5rem;
+    width: 5px;
+
+    :hover {
+        background-color: #ddd;
+    }
+}
