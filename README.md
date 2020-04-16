@@ -15,7 +15,7 @@ Per includere Zaraciccio css nel tuo file `html` scrivi, nella &lt;head>:
 
 Questa è la via più conveniente, sui nostri server ad alta velocità.
 
-Se hai sul tuo server una copia del css [(nel file zip)] ne puoi trovare una, scrivi così:
+Se hai sul tuo server una copia del css ([nel file zip] ne puoi trovare una), scrivi così:
 
 &lt;link rel="stylesheet" href="zaracicciocss/css/zaraciccio.min.css">
 
@@ -26,4 +26,4 @@ Se hai sul tuo server una copia del css [(nel file zip)] ne puoi trovare una, sc
 &lt;script src="zaracicciocss/js/zaraciccio.min.js">&lt;/script>
 
 [Zaraciccio.css]: http://zaracicciocss.zarahost.rf.gd
-[(nel file zip)]: http://zaracicciocss.zaracdn.rf.gd/zaracicciocss.zip
+[nel file zip]: http://zaracicciocss.zaracdn.rf.gd/zaracicciocss.zip

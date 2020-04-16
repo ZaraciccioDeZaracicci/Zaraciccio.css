@@ -4,4 +4,32 @@ body {
     color: #fff;
     background-color: #242a30;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    .wnav {
+        padding-top: 110px;
+    }
+    
+    .whside {
+        padding-left: 310px;
+    }
+    
+    .whsidesec {
+        padding-right: 310px;
+    }
+}
+
+@media (max-width: 1548px) {
+    .whsidesec {
+        padding-right: 0px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .whsidesec {
+        padding-left: 0px !important;
+    }
+    .whnav {
+        padding-top: 160px !important;
+    }
 }

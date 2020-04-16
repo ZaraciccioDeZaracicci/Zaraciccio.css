@@ -13,7 +13,6 @@ $(function () {
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
         $side.toggleClass('scrolled', $(this).scrollTop() > $side.height());
         $sidesec.toggleClass('scrolled', $(this).scrollTop() > $sidesec.height());
-        chiudi();
     });
     $(document).on('click', function () {
         chiudi();
@@ -23,6 +22,12 @@ $(function () {
 });
 
 $(function () {
+    $(document).bind("contextmenu", function(f){
+        $('.left.close').css({
+            left:  f.pageX + 20,
+            top:   f.pageY
+        });
+    });
     $(this).bind("contextmenu", function (e) {  
         $('.left').toggleClass('close');
         $('.left').toggleClass('open');

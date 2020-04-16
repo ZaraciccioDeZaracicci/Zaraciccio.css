@@ -5,11 +5,11 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    max-width: 300px;
+    min-width: 300px;
     visibility: hidden;
     color: #fff !important;
     background-color: transparent !important;
-    box-shadow: 0 0 0 0rem rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 1rem #fff;;
     border-radius: 0.25rem;
     transition: visibility, box-shadow, color, background-color 200ms, 200ms, 200ms, 200ms linear;
     
